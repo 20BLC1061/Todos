@@ -62,6 +62,7 @@ class SimpleTodos extends Component {
                 key={eachTodo.id}
                 title={eachTodo.title}
                 deleteTodo={this.deleteTodo}
+                id={eachTodo.id}
               />
             ))}
           </ul>
