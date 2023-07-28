@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffc2a0;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 40%;
+}
+.heading {
+  color: #ff8542;
+  font-family: 'Lato';
+  font-weight: bold;
+  font-size: 32px;
+}
